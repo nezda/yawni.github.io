@@ -17,3 +17,6 @@ Yawni is a pure Java object-oriented interface to the [WordNet](pages/whats_word
 - Extensive unit tests provide peace of mind (and great examples!)
 - Commercial-friendly [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0)
 
+[![alt text](/assets/webstart.png "Launch the Yawni Browser")](http://www.yawni.org/yawni.jnlp) Try out the Yawni Browser!
+
+![alt text](/assets/release_2.0_mac_screenshot.png "Yawni Browser 2.0 Screenshot")
