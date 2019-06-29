@@ -35,7 +35,7 @@ Yawni also includes optional jar files containing all the data from WordNet vers
 </dependency>
 ```
 
-To integrate Yawni into your project, you'll need to choose the [SLF4J](http://www.slf4j.org/) logging implementation that is compatible with your project's logging: all this requires is adding a small jar    file to your classpath, and you can automate this with a Maven dependency. For example:
+To integrate Yawni into your project, you'll need to choose the [SLF4J](https://www.slf4j.org/) logging implementation that is compatible with your project's logging: all this requires is adding a small jar    file to your classpath, and you can automate this with a Maven dependency. For example:
 
 If your project doesn't use logging, add this to your pom.xml:
 
@@ -67,4 +67,4 @@ If your project uses log4j, add this to your pom.xml:
 </dependency>
 ```
 
-A more detailed explanation can be found http://mina.apache.org/logging-configuration.html or in the [SLF4J manual](http://www.slf4j.org/manual.html).
+A more detailed explanation can be found https://mina.apache.org/logging-configuration.html or in the [SLF4J manual](http://www.slf4j.org/manual.html).
