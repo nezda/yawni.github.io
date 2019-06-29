@@ -1,7 +1,7 @@
 - name: Home
   link: /
 - name: What's WordNet?
-  link: /pages/whats_wordnet.html
+  link: pages/whats_wordnet.html
 - name: GUI WordNet Browser
   link: /pages/gui_wordnet_browser.html
 - name: Developers
