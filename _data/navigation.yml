@@ -1,5 +1,5 @@
 - name: Home
-  link: /
+  link: ./
 - name: What's WordNet?
   link: whats_wordnet.html
 - name: GUI WordNet Browser
