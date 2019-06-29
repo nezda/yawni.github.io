@@ -7,7 +7,7 @@
 - name: Developers
   link: /pages/developers.html
 - name: JavaDoc
-  link: /pages/javadoc.html
+  link: pages/javadoc.html
 - name: FAQ
   link: /pages/faq.html
 - name: Who We Are
