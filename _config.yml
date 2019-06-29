@@ -16,7 +16,7 @@ author :
   twitter : lukenezda
   feedburner : nil
 
-baseurl: /yawni.github.io
+#baseurl: /yawni.github.io
 
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
 production_url: https://nezda.github.io/yawni.github.io
