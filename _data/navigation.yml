@@ -1,16 +1,16 @@
 - name: Home
   link: /
 - name: What's WordNet?
-  link: /pages/whats_wordnet.html
+  link: /whats_wordnet.html
 - name: GUI WordNet Browser
-  link: /pages/gui_wordnet_browser.html
+  link: /gui_wordnet_browser.html
 - name: Developers
-  link: /pages/developers.html
+  link: /developers.html
 - name: JavaDoc
-  link: pages/javadoc.html
+  link: javadoc.html
 - name: FAQ
-  link: /pages/faq.html
+  link: /faq.html
 - name: Who We Are
-  link: /pages/who_we_are.html
+  link: /who_we_are.html
 - name: Issue Tracker
   link: https://github.com/nezda/yawni/issues
