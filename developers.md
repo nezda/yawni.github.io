@@ -3,7 +3,7 @@ layout: page
 title: Developers
 description: Developers
 ---
-Browse the source code online, or clone the repository:
+Browse the source code online, or clone [the Github repository](https://github.com/nezda/yawni):
 
 ```
 git clone git@github.com:nezda/yawni.git
@@ -21,17 +21,17 @@ To use Yawni, you must include its core api jar file in your classpath; this is 
 <dependency>
   <groupId>org.yawni</groupId>
   <artifactId>yawni-wordnet-api</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>{{ site.data.yawni.version }}</version>
 </dependency>
 ```
 
-Yawni also includes optional jar files containing all the data from WordNet version 3.0 (2.1 and 2.0) which simplifies deployment (e.g., client doesn't need to download WordNet, export environment variables, etc.); this Maven dependency is all you need:
+Yawni also includes optional jar files containing all the data from WordNet version 3.0 (and 2. and 2.1) which simplifies deployment (e.g., client doesn't need to download WordNet, export environment variables, etc.); this Maven dependency is all you need:
 
 ```xml
 <dependency>
   <groupId>org.yawni</groupId>
   <artifactId>yawni-wordnet-data30</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>{{ site.data.yawni.version }}</version>
 </dependency>
 ```
 
@@ -43,7 +43,7 @@ If your project doesn't use logging, add this to your pom.xml:
 <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>slf4j-nop</artifactId>
-  <version>1.6.6</version>
+  <version>{{ site.data.yawni.slf4j_version }}</version>
 </dependency>
 ```
 
@@ -53,7 +53,7 @@ If your project uses java.util.logging, add this to your pom.xml:
 <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>slf4j-jdk14</artifactId>
-  <version>1.6.6</version>
+  <version>{{ site.data.yawni.slf4j_version }}</version>
 </dependency>
 ```
 
@@ -63,8 +63,8 @@ If your project uses log4j, add this to your pom.xml:
 <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>slf4j-log4j12</artifactId>
-  <version>1.6.6</version>
+  <version>{{ site.data.yawni.slf4j_version }}</version>
 </dependency>
 ```
 
-A more detailed explanation can be found https://mina.apache.org/logging-configuration.html or in the [SLF4J manual](http://www.slf4j.org/manual.html).
+A more detailed explanation can be found at [https://mina.apache.org/logging-configuration.html](https://mina.apache.org/logging-configuration.html) or in the [SLF4J manual](http://www.slf4j.org/manual.html).
