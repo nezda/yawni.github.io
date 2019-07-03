@@ -1,6 +1,17 @@
-<div class="page-header">
-    <h2><img src={{page.logo}}></img> {{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h2>
-</div>
+<header>
+  <div class="jumbotron">
+    <h1 class="display-4">
+      <img src={{page.logo}}>
+      {{ page.title }}
+      {% if page.tagline %}
+        {% include githubbtns.html %}
+      {% endif %}
+    </h1>
+    {% if page.tagline %}
+      <p class="lead">{{ page.tagline }}</p>
+    {% endif %}
+  </div>
+</header>
 
 <div class="row-fluid">
   <div class="span12">
