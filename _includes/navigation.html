@@ -1,13 +1,11 @@
-<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav mr-auto">
-      {% for item in site.data.navigation %}
-      <li class="nav-item {% if page.url == item.link %} active {% endif %}">
-        <a class="nav-link" href="{{ item.link }}">
-        {{ item.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</nav>
+<div class="nav-scroller nav-scroller-dark bg-dark py-1 mb-2">
+  <nav class="nav d-flex " id="top-nav">
+    {% for item in site.data.navigation %}
+      <a id={{item.id}}
+         class="p-2 text-left {% if page.url == item.link %} text-white {% else %} text-muted {% endif %}"
+         href="{{ item.link }}">
+      {{ item.name }}
+      </a>
+    {% endfor %}
+  </nav>
+</div>
