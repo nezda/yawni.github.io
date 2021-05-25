@@ -10,7 +10,7 @@ description: FAQ
 
 > it, I, a, an, am, as, are, at, be, been, by, done, has, had, he, me, or, thou, us, was, were, who
 
-WordNet contains only [ASCII](https://www.wikipedia.com/wiki/ASCII), no [Unicode](http://www.wikipedia.com/wiki/Unicode), so it spells "résumé" "resume" and "cliché" "cliche".
+WordNet contains only [ASCII](https://www.wikipedia.com/wiki/ASCII), no [Unicode](https://www.wikipedia.com/wiki/Unicode), so it spells "résumé" "resume" and "cliché" "cliche".
 
 
 **Q**: What's *in* WordNet?

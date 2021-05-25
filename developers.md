@@ -3,15 +3,15 @@ layout: page
 title: Developers
 description: Developers
 ---
-Browse the source code online, or clone [the Github repository](https://github.com/nezda/yawni):
+Browse the source code online, or clone [our Github ![](assets/GitHub-Mark-32px.png) repository](https://github.com/nezda/yawni):
 
-```
+```sh
 git clone git@github.com:nezda/yawni.git
 ```
 
 Building the project is easy with our Apache Maven -based build; just clone the repository, and
 
-```
+```sh
 mvn clean install
 ```
 
@@ -57,7 +57,7 @@ If your project uses `java.util.logging`, add this to your `pom.xml`:
 </dependency>
 ```
 
-If your project uses [log4j](http://logging.apache.org/log4j/1.2/), add this to your `pom.xml`:
+If your project uses [log4j](https://logging.apache.org/log4j/1.2/), add this to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -77,4 +77,14 @@ If your project uses [log4j2](https://logging.apache.org/log4j/2.x/), add this t
 </dependency>
 ```
 
-A more detailed explanation can be found at [http://mina.apache.org/mina-project/userguide/ch12-logging-filter/ch12-logging-filter.html](http://mina.apache.org/mina-project/userguide/ch12-logging-filter/ch12-logging-filter.html) or in the [SLF4J manual](http://www.slf4j.org/manual.html).
+A more detailed explanation can be found at [https://mina.apache.org/mina-project/userguide/ch12-logging-filter/ch12-logging-filter.html](https://mina.apache.org/mina-project/userguide/ch12-logging-filter/ch12-logging-filter.html) or in the [SLF4J manual](https://www.slf4j.org/manual.html).
+
+<div class="alert alert-info" role="alert">
+<h4 class="alert-heading">
+
+[Pull requests welcome!](https://github.com/nezda/yawni/pulls)
+
+</h4>
+
+Start a conversation with our [GitHub Discussions](https://github.com/nezda/yawni/discussions)!
+</div>
