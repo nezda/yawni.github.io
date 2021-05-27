@@ -8,6 +8,7 @@ The Yawni WordNet Browser features:
 
 * Clean look 🧼 👀, simple user-friendly controls 😊 🎛 🔍, and snappy performance 🚀
 * “Find as you type” 🔍 (aka [incremental find](https://www.wikipedia.com/wiki/Incremental_find)) where the entered word (portion) appears anywhere in a matching word, or only as a prefix (Ctrl+Shift+F / ⇧ ⌘ F); search can also be restricted by part of speech
+* No limits on search: Never see “Search too large. Narrow search and try again...” again!
 * Comprehensive keyboard navigation ⌨ 🧭, including Undo ↩ / Redo ↪ for typing (⇧ Z / ⇧ ⌘ Z), standard control-to-control navigation with the ↹ (Tab) key, font zooming (⌘ = / ⌘ -), and multi-window 🪟🪟 support (⌘ N)
 * Runs on macOS 🍎, Linux 🐧, and Windows; once installed, does not even require internet access 🚫 🌏! <span class="text-muted">(since all the data is all embedded in the application's “jar file”)</span>
 
