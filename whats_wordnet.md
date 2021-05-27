@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What's WordNet?
+title: What’s WordNet?
 description: What is WordNet?
 ---
 

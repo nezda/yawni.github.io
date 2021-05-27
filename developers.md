@@ -3,7 +3,7 @@ layout: page
 title: Developers
 description: Developers
 ---
-Browse the source code online, or clone [our Github ![](assets/GitHub-Mark-32px.png) repository](https://github.com/nezda/yawni):
+Browse the source code online, or clone [our GitHub ![](assets/GitHub-Mark-32px.png) repository](https://github.com/nezda/yawni):
 
 ```sh
 git clone git@github.com:nezda/yawni.git
@@ -15,7 +15,7 @@ Building the project is easy with our Apache Maven -based build; just clone the 
 mvn clean install
 ```
 
-To use Yawni, you must include its core api jar file in your classpath; this is easiest with a Maven dependency:
+To use Yawni, you must include its core API jar file in your classpath; this is easiest with a Maven dependency:
 
 ```xml
 <dependency>
@@ -35,7 +35,7 @@ Yawni also includes optional jar files containing all the data from WordNet vers
 </dependency>
 ```
 
-To integrate Yawni into your project, you'll need to choose the [SLF4J](https://www.slf4j.org/) logging implementation that is compatible with your project's logging: all this requires is adding a small jar    file to your classpath, and you can automate this with a Maven dependency. For example:
+To integrate Yawni into your project, you'll need to choose the [SLF4J](https://www.slf4j.org/) logging implementation that is compatible with your project’s logging: all this requires is adding a small jar file to your classpath, and you can automate this with a Maven dependency. For example:
 
 If your project doesn't use logging, add this to your `pom.xml`:
 
@@ -86,5 +86,5 @@ A more detailed explanation can be found at [https://mina.apache.org/mina-projec
 
 </h4>
 
-Start a conversation with our [GitHub Discussions](https://github.com/nezda/yawni/discussions)!
+Start a conversation in our [GitHub Discussions](https://github.com/nezda/yawni/discussions)!
 </div>

@@ -1,7 +1,7 @@
 - name: Home
   link: /
   id: home
-- name: What's WordNet?
+- name: What’s WordNet?
   link: /whats_wordnet
   id: whats-wordnet
 - name: GUI WordNet Browser

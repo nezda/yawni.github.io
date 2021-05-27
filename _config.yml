@@ -21,7 +21,7 @@ author:
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
 #production_url: https://www.yawni.org
 
-# Tell Github to use the kramdown or CommonMark (GFM) markdown interpreter
+# Tell GitHub to use the kramdown or CommonMark (GFM) markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: GFM
 
