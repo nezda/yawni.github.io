@@ -15,7 +15,7 @@ Yawni is a pure Java object-oriented interface to the [WordNet](whats_wordnet.ht
 - Written in Java ☕ so it’s compatible with any <abbr title="Java Virtual Machine"><a href="https://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a></abbr> language! [Scala](https://www.scala-lang.org/), [Clojure](https://clojure.org/), [Kotlin](https://kotlinlang.org/), …
 - All required resources load from jars by default making deployment a snap 💥
 - Easy [Apache Maven](https://maven.apache.org/) -based build with minimal dependencies
-- [Extensive unit tests 🧪](https://github.com/nezda/yawni/tree/master/api/src/test/java/org/yawni/) provide peace of mind (and great examples!)
+- [Extensive unit tests 🧪](https://github.com/nezda/yawni/tree/main/api/src/test/java/org/yawni/) provide peace of mind (and great examples!)
 - Commercial-friendly [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![alt text](assets/webstart.png "Launch the Yawni WordNet Browser")](assets/yawni.jnlp) Try out the [Yawni WordNet Browser](gui_wordnet_browser.html) from your desktop web browser! [Problems 🥺?](help_yawni_browser_jnlp.html)
